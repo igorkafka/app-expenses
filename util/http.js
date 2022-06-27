@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BACKEND_URL = 'https://react-native-course-51564-default-rtdb.firebaseio.com';
+const BACKEND_URL = '';
 
 
 
