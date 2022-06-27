@@ -49,7 +49,6 @@ function ExpenseForm({submitButtonLabel, onCancel, onSubmit, defaultValues}) {
         onSubmit(expenseData);
 
     }
-    console.log(inputs)
     const formIsValid = !inputs.amount.isValid || !inputs.date.isValid || !inputs.description.isValid;
 
     return <View style={styles.form}>
